@@ -11,13 +11,13 @@ body{
 }
 
 nav{
-    background: bisque;
+    background: rgb(0, 0, 0);
     height: 80px;
     width: 100%;
 }
 
 label.logo{
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 35px;
     line-height: 80px;
     padding: 0 100px;
@@ -36,7 +36,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: black;
+    color: rgb(255, 255, 255);
     font-size: 17px;
     padding: 7px 13px;
     border-radius: 3px;
@@ -50,7 +50,7 @@ a.active,a:hover{
 
 .checkbtn{
     font-size: 30px;
-    color: black;
+    color: rgb(255, 255, 255);
     float: right;
     line-height: 80px;
     margin-right: 40px;
@@ -97,7 +97,7 @@ a.active,a:hover{
     }
     a:hover,a.active{
         background: none;
-        color: rgb(92, 64, 29);
+        color: rgb(187, 131, 63);
     }
     #check:checked ~ ul{
         left: 0;
