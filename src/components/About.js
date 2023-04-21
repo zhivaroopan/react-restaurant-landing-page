@@ -25,7 +25,7 @@ const About = () => {
                 voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
                 non
                 </p>
-                <div className="about-button-container">
+                <div className="about-buttons-container">
                     <button className="secondary-button">Learn More</button>
                     <button className="watch-video-button"> 
                     {""}
