@@ -24,6 +24,8 @@ const Home = () => {
                 Order Now <FiArrowRight />
               </button>
           </div>
+          <div className="home-Image-container"></div>
+            <img src={BannerImage} alt="Food Bowl" />
         </div>
     </div>
   );
