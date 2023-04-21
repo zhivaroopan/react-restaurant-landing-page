@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/home-banner-image.png";
 import {FiArrowRight} from "react-icons/fi";
+import About from "./About";
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
           <div className="home-Image-container"></div>
             <img src={BannerImage} alt="Food Bowl" />
         </div>
+        <About />
     </div>
   );
 }
