@@ -118,16 +118,44 @@ nav {
   background-color: #e48f0f;
 }
 .about-section-container {
-  margin-top: 20rem;
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+   justify-content: space-between;
 }
 .about-background-image-container {
   position: absolute;
   left: -150px;
   z-index: -2;
+}
+
+/* Styles for the "Food Items" section */
+.booking-page label + div {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.booking-page span {
+  flex: 1;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.booking-page input[type="number"] {
+  width: 60px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.booking-page input[type="number"]:focus {
+  border-color: #007bff;
+}
+
+/* Price styling */
+.booking-page span.price {
+  color: #28a745; /* Green color for price */
 }
 .about-section-image-container {
   flex: 0.9;
@@ -138,6 +166,7 @@ nav {
   justify-content: center;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 }
 .primary-subheading {
   font-weight: 700;
@@ -170,6 +199,58 @@ nav {
 .contact-page-wrapper h1 {
   max-width: 900px !important;
 }
+.booking-page {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.booking-page h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.booking-page label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.booking-page select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.booking-page input[type="text"],
+.booking-page input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.booking-page button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.booking-page button:hover {
+  background-color: #0056b3;
+}
+
 .contact-page-wrapper {
   display: flex;
   align-items: center;
@@ -261,7 +342,7 @@ nav {
   margin-top: 1.5rem;
 }
 .work-section-wrapper {
-  margin-top: 15rem;
+  margin-top: 1rem;
 }
 .work-section-top p {
   text-align: center;
@@ -330,7 +411,7 @@ nav {
     display: flex;
   }
   .home-bannerImage-container {
-    max-width: 450px;
+    max-width: 350px;
   }
   .home-banner-container,
   .about-section-container {
